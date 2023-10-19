@@ -3,5 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #111111;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* each browser has a layout by default, the style comand line above is for a style reset and standardizadion of the page.*/
