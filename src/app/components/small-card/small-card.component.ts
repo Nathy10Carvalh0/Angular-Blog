@@ -7,9 +7,11 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class SmallCardComponent implements OnInit {
   @Input()
-  smallcardPhoto:String="https://i.ytimg.com/vi/prU99tacHUk/maxresdefault.jpg"
+  photoCover:String=""
   @Input()
-  smallcardTitle:String=""
+  cardTitle:String=""
+  @Input()
+  id:string="0"
   constructor(){}
 
   ngOnInit(): void {
