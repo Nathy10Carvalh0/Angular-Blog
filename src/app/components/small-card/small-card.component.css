@@ -1,5 +1,5 @@
 .container__small-card{
-  width: 500px;
+  width: 600px;
   margin-bottom: 15px;
 }
 .container__small-card-content{
@@ -8,15 +8,15 @@
 }
 
 .small-card__photo > img{
-  margin: 5px 15px 10px 5px;
-  height:100px;
-  min-width: 200px;
+  margin: 0px 15px 10px 5px;
+  height:150px;
+  min-width: 260px;
 
 }
-.small-card__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.small-card__title >h1 >a {
+ font-size: 20px;
+ font-weight: 600;
 }
 
 a{
